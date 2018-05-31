@@ -4,12 +4,16 @@ make a list
   -make a file (check with open)
   -make a hardcoded list
   -git commit
-add items to the list
   -make js file
   -make a data model
   -iterate over the array->log
   -find out what method to use to write it
   -write it
+add items to the list
+  -create a text area where user can input text
+  -create a button which user clicks and the inputted text is written to the dom
+  -add the inputted text to the list so that it's shown on the page
+  -add the inputted text to the array
 check items off the list
 -->
 
@@ -21,6 +25,9 @@ check items off the list
   <body>
     <h1>TODO APP</h1>
     <ol id="todo_list"></ol>
+    <textarea id="myTextArea" rows="4" cols="50"></textarea>
+    <button id="add_to_list" type="button" onclick="addUserInput()">Add This Note</button>
+    <button id="delete_from_list" type="button" onclick="DeleteUserInput()">Delete A Note</button>
     <script src="script.js"></script>
   </body>
 </html>
