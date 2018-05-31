@@ -41,7 +41,7 @@ function DeleteUserInput() {
     //remove the item from the array
     todoList.removeChild(document.getElementsByTagName("li")[deleteItem-1]);
     //remove the item from the page
-  } else { window.alert("hey, please a valid input a number")}
+  } else { window.alert("hey, please input a valid number")}
   //pops up an alert if the input is invalid
   console.log(todoItems);
   //console log to check ourselves
