@@ -9,7 +9,7 @@ function addUserInput() {
     //declares a variable x and assign it to the value that's inputted to the textarea
     todoItems.push(x);
     //adds x to the todoItems array
-    let listItem = document.createElement("li", {"id": "itemList"});
+    let listItem = document.createElement("li");
     //create a list element
     let todoText = document.createTextNode(x);
     //create a text node with the input gotten from user input
@@ -30,4 +30,10 @@ function removeOnClick() {
 
 function DeleteAll() {
   todoItems= [];
+  console.log(document.getElementById("itemList"));
 }
+//I am working on a feature
+//the feature is to delete the to do list from the screen by clicking a button
+//the button is there. it deletes the items from the array
+//i couldn't find a way to delete the list from the screen
+//
