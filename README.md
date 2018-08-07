@@ -1,4 +1,4 @@
 # a-simple-to-do-app
 a very simple to do app made during the first weeks of Academy
 
-![Alt Text](https://giphy.com/gifs/1oC7JYIEx0HykABy2h/html5)
+![Alt Text](https://media.giphy.com/media/1oC7JYIEx0HykABy2h/giphy.gif)
